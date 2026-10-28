@@ -1,0 +1,117 @@
+{
+  "name": "Mira Juga",
+  "manifest_paths_checked": true,
+  "icons": [
+    {
+      "file": "pwa/icons/apple-touch-icon-152.png",
+      "size": [
+        152,
+        152
+      ],
+      "opaque": true
+    },
+    {
+      "file": "pwa/icons/apple-touch-icon-167.png",
+      "size": [
+        167,
+        167
+      ],
+      "opaque": true
+    },
+    {
+      "file": "pwa/icons/apple-touch-icon-180.png",
+      "size": [
+        180,
+        180
+      ],
+      "opaque": true
+    },
+    {
+      "file": "pwa/icons/apple-touch-icon.png",
+      "size": [
+        180,
+        180
+      ],
+      "opaque": true
+    },
+    {
+      "file": "pwa/icons/favicon-16.png",
+      "size": [
+        16,
+        16
+      ],
+      "opaque": true
+    },
+    {
+      "file": "pwa/icons/favicon-32.png",
+      "size": [
+        32,
+        32
+      ],
+      "opaque": true
+    },
+    {
+      "file": "pwa/icons/favicon-48.png",
+      "size": [
+        48,
+        48
+      ],
+      "opaque": true
+    },
+    {
+      "file": "pwa/icons/icon-1024.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "opaque": true
+    },
+    {
+      "file": "pwa/icons/icon-192.png",
+      "size": [
+        192,
+        192
+      ],
+      "opaque": true
+    },
+    {
+      "file": "pwa/icons/icon-512.png",
+      "size": [
+        512,
+        512
+      ],
+      "opaque": true
+    },
+    {
+      "file": "pwa/icons/icon-maskable-1024.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "opaque": true,
+      "essential_radius": 0.36619986962441625,
+      "within_40_percent_safe_zone": true
+    },
+    {
+      "file": "pwa/icons/icon-maskable-192.png",
+      "size": [
+        192,
+        192
+      ],
+      "opaque": true,
+      "essential_radius": 0.36452752549056944,
+      "within_40_percent_safe_zone": true
+    },
+    {
+      "file": "pwa/icons/icon-maskable-512.png",
+      "size": [
+        512,
+        512
+      ],
+      "opaque": true,
+      "essential_radius": 0.3655449673691943,
+      "within_40_percent_safe_zone": true
+    }
+  ],
+  "note": "Dimensió, opacitat i radi dels píxels essencials contrastats amb el fons. No és una prova d’instal·lació en dispositiu."
+}
