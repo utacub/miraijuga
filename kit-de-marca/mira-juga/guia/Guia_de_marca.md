@@ -1,5 +1,11 @@
 # Mira Juga · Guia breu de marca
 
+## Revisió del 28 d’octubre de 2026
+
+Aquest kit substitueix la revisió anterior. Utilitza el logo Mira definitiu aportat per l’usuari: M completa amb punta central descendent visible entre els ulls; dos ulls superposats, sense franges clares de parpella superior. Es mantenen la selecció 01 · Salt de Juga i les decisions de color i ús. La referència original es conserva sense modificar a `referencies/Mira_logo_definitiu.png`.
+
+Les composicions i les icones són adaptacions raster generades a partir de la referència; no són una reproducció vectorial ni es garanteix identitat píxel a píxel amb l’original. No deformeu els PNG. Les versions monocromes blanques conserven la mateixa màscara alfa que les negres.
+
 ## Construcció
 
 El logotip combina Mira, amb la M angular i els ulls humans que miren el cursor, amb **Juga · Salt**, caracteritzat pel ritme de les lletres, la g taronja i els petits accents de moviment.

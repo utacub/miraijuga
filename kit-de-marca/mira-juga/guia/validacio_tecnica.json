@@ -1,9 +1,35 @@
 {
-  "name": "Mira Juga",
-  "manifest_paths_checked": true,
+  "revision": "2026-10-28",
+  "reference_sha256": "9e4cda866f22d148fbd51a27ddef682e68969948ac05292a9c7e0c9e196ade7b",
+  "device_installation_test": false,
   "icons": [
     {
-      "file": "pwa/icons/apple-touch-icon-152.png",
+      "name": "icon-maskable-1024.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "opaque": true,
+      "essential_radius_fraction": 0.3525
+    },
+    {
+      "name": "apple-touch-icon-180.png",
+      "size": [
+        180,
+        180
+      ],
+      "opaque": true
+    },
+    {
+      "name": "icon-192.png",
+      "size": [
+        192,
+        192
+      ],
+      "opaque": true
+    },
+    {
+      "name": "apple-touch-icon-152.png",
       "size": [
         152,
         152
@@ -11,39 +37,16 @@
       "opaque": true
     },
     {
-      "file": "pwa/icons/apple-touch-icon-167.png",
+      "name": "icon-maskable-192.png",
       "size": [
-        167,
-        167
+        192,
+        192
       ],
-      "opaque": true
+      "opaque": true,
+      "essential_radius_fraction": 0.3509
     },
     {
-      "file": "pwa/icons/apple-touch-icon-180.png",
-      "size": [
-        180,
-        180
-      ],
-      "opaque": true
-    },
-    {
-      "file": "pwa/icons/apple-touch-icon.png",
-      "size": [
-        180,
-        180
-      ],
-      "opaque": true
-    },
-    {
-      "file": "pwa/icons/favicon-16.png",
-      "size": [
-        16,
-        16
-      ],
-      "opaque": true
-    },
-    {
-      "file": "pwa/icons/favicon-32.png",
+      "name": "favicon-32.png",
       "size": [
         32,
         32
@@ -51,7 +54,16 @@
       "opaque": true
     },
     {
-      "file": "pwa/icons/favicon-48.png",
+      "name": "icon-maskable-512.png",
+      "size": [
+        512,
+        512
+      ],
+      "opaque": true,
+      "essential_radius_fraction": 0.3519
+    },
+    {
+      "name": "favicon-48.png",
       "size": [
         48,
         48
@@ -59,23 +71,7 @@
       "opaque": true
     },
     {
-      "file": "pwa/icons/icon-1024.png",
-      "size": [
-        1024,
-        1024
-      ],
-      "opaque": true
-    },
-    {
-      "file": "pwa/icons/icon-192.png",
-      "size": [
-        192,
-        192
-      ],
-      "opaque": true
-    },
-    {
-      "file": "pwa/icons/icon-512.png",
+      "name": "icon-512.png",
       "size": [
         512,
         512
@@ -83,35 +79,83 @@
       "opaque": true
     },
     {
-      "file": "pwa/icons/icon-maskable-1024.png",
+      "name": "apple-touch-icon.png",
+      "size": [
+        180,
+        180
+      ],
+      "opaque": true
+    },
+    {
+      "name": "icon-1024.png",
       "size": [
         1024,
         1024
       ],
-      "opaque": true,
-      "essential_radius": 0.36619986962441625,
-      "within_40_percent_safe_zone": true
+      "opaque": true
     },
     {
-      "file": "pwa/icons/icon-maskable-192.png",
+      "name": "apple-touch-icon-167.png",
       "size": [
-        192,
-        192
+        167,
+        167
       ],
-      "opaque": true,
-      "essential_radius": 0.36452752549056944,
-      "within_40_percent_safe_zone": true
+      "opaque": true
     },
     {
-      "file": "pwa/icons/icon-maskable-512.png",
+      "name": "favicon-16.png",
       "size": [
-        512,
-        512
+        16,
+        16
       ],
-      "opaque": true,
-      "essential_radius": 0.3655449673691943,
-      "within_40_percent_safe_zone": true
+      "opaque": true
     }
   ],
-  "note": "Dimensió, opacitat i radi dels píxels essencials contrastats amb el fons. No és una prova d’instal·lació en dispositiu."
+  "logos": [
+    {
+      "name": "Mira_Juga_negre_transparent.png",
+      "size": [
+        1916,
+        821
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "Mira_Juga_blanc_transparent.png",
+      "size": [
+        1916,
+        821
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "Mira_Juga_color_ivori.png",
+      "size": [
+        1916,
+        821
+      ],
+      "alpha_extrema": [
+        255,
+        255
+      ]
+    },
+    {
+      "name": "Mira_Juga_color_transparent.png",
+      "size": [
+        1915,
+        821
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "manifest_paths_valid": true
 }
