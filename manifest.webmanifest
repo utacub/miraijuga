@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Mira Juga",
-  "short_name": "Mira Juga",
-  "description": "Activitats per jugar i descobrir amb la mirada (lector ocular), pensades per a infants. UTAC.",
+  "name": "Mira i Juga",
+  "short_name": "Mira i Juga",
+  "description": "Activitats per jugar amb la mirada (lector ocular), pensades per a infants. UTAC.",
   "lang": "ca",
   "start_url": "./",
   "scope": "./",
@@ -12,8 +12,8 @@
     "standalone"
   ],
   "orientation": "landscape",
-  "background_color": "#FEFDF6",
-  "theme_color": "#FEFDF6",
+  "background_color": "#0d1026",
+  "theme_color": "#5fb6ec",
   "categories": [
     "education",
     "games"
@@ -32,26 +32,8 @@
       "purpose": "any"
     },
     {
-      "src": "icons/icon-1024.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-maskable-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icons/icon-maskable-512.png",
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icons/icon-maskable-1024.png",
-      "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "maskable"
     }
