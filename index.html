@@ -150,7 +150,7 @@ button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
   <h2 data-i18n="opts.h">Opcions (per a l'adult)</h2>
   <div class="row"><span data-i18n="lang">Idioma</span><select id="iLang"></select></div>
   <div class="row"><span data-i18n="size">Mida dels objectes</span><div class="seg" data-k="size"><button data-v="0" data-i18n="big">Grans</button><button data-v="1" data-i18n="med">Mitjans</button><button data-v="2" data-i18n="small">Petits</button></div></div>
-  <div class="row"><span data-i18n="act">Activació</span><div class="seg" data-k="mode"><button data-v="0" data-i18n="hover">En passar-hi per sobre</button><button data-v="1" data-i18n="dwell">Mantenint la mirada</button></div></div>
+  <div class="row"><span data-i18n="act">Activació</span><div class="seg" data-k="mode"><button data-v="0" data-i18n="hover">En passar-hi per sobre</button><button data-v="1" data-i18n="dwell">Mantenint la mirada</button><button data-v="2" data-i18n="click">Fent clic</button></div></div>
   <div class="row"><span><span data-i18n="dwellTime">Temps de permanència:</span> <b id="oDw"></b> s</span><input type="range" id="iDw" min="0.3" max="3" step="0.1"></div>
   <div class="row"><span><span data-i18n="speed">Velocitat del moviment ambiental:</span> <b id="oSp"></b></span><input type="range" id="iSp" min="0" max="2" step="0.1"></div>
   <div class="row"><span data-i18n="cursor">Cursor</span><div class="seg" data-k="cursor"><button data-v="0" data-i18n="ring">Anella</button><button data-v="1" data-i18n="system">Del sistema</button><button data-v="2" data-i18n="none">Cap</button></div></div>
@@ -755,12 +755,12 @@ ca:{
   'start.adult':"<b>Per a l'adult:</b> feu clic a «Començar» per activar el so. Les opcions s'obren amb la tecla <b>O</b> o des del menú.",
   go:'Començar ▶',fs:'Pantalla completa',lang:'Idioma','menu.title':'Tria un joc',opt:'⚙ Opcions',fsBtn:'⛶ Pantalla completa',soon:'En preparació',
   prev:'Escenari anterior',home:'Menú',next:'Escenari següent',
-  'opts.h':"Opcions (per a l'adult)",size:'Mida dels objectes',big:'Grans',med:'Mitjans',small:'Petits',act:'Activació',hover:'En passar-hi per sobre',dwell:'Mantenint la mirada',
+  'opts.h':"Opcions (per a l'adult)",size:'Mida dels objectes',big:'Grans',med:'Mitjans',small:'Petits',act:'Activació',hover:'En passar-hi per sobre',dwell:'Mantenint la mirada',click:'Fent clic',
   dwellTime:'Temps de permanència:',speed:'Velocitat del moviment ambiental:',cursor:'Cursor',ring:'Anella',system:'Del sistema',none:'Cap',music:'Música de fons',musicVol:'Volum de la música',credits:"Sons: Freesound/ESC-50 (CC0), Berklee/OLPC (CC BY 3.0), Pearl Master Studio d'enoe (CC BY 3.0), FluidR3 GM (Frank Wen, MIT). Música original.",credBtn:'Crèdits','cred.h':'Crèdits','cred.body':'<p>Aquesta activitat ha estat creada per la <b>UTAC</b> (<a href=\'https://www.utac.cat\' target=\'_blank\' rel=\'noopener\'>www.utac.cat</a>) fent servir intel·ligència artificial, en concret <b>Claude Opus 5.5</b> (Anthropic). Amb la IA s\'han generat el programa, els dibuixos, les animacions, els efectes sintetitzats i la música original.</p><h3>Sons gravats i instruments</h3><ul class="cl"><li><b>Freesound.org</b> – sons d’animals de granja: ESC-50 (K. J. Piczak, 2015), CC0.</li><li><b>“Duck Quack”</b> – qubodup, Freesound.org (freesound.org/s/442820).</li><li><b>“Horse Neighing #3”</b> – BigSoundBank.com (Joseph Sardin).</li><li><b>Berklee College of Music / OLPC Sound Library</b> – efectes de so, CC BY 3.0.</li><li><b>“Pearl Master Studio Pack 1”</b> – enoe, Freesound.org, CC BY 3.0 (bateria).</li><li><b>FluidR3 GM</b> – Frank Wen, instruments mostrejats (midi-js-soundfonts, B. Gleitzman, MIT).</li><li><b>Nunito</b> – tipografia de The Nunito Project Authors, SIL Open Font License 1.1.</li></ul><p class=\'thx\'>Gràcies a tots els autors que comparteixen els seus sons amb llicències lliures.</p>',sound:'So',vol:'Volum',
   trail:"Rastre d'espurnes darrere el cursor",simple:'Fons simplificat (negre, alt contrast)',navGaze:'Botons de navegació activables amb la mirada',
   fast:"Mode ràpid (per a ordinadors lents; s'activa sol si cal)",stats:'Activacions en aquesta sessió:',close:'Tancar',stopped:'aturats',
   keys:"<kbd>←</kbd> <kbd>→</kbd> canviar d'escenari · <kbd>Esc</kbd>/<kbd>M</kbd> menú · <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> mida · <kbd>D</kbd> tipus d'activació · <kbd>S</kbd> so · <kbd>F</kbd> pantalla completa · <kbd>L</kbd> càmera lenta · <kbd>O</kbd> opcions",
-  'toast.size':'Mida: ','toast.sizes':'grans|mitjans|petits','toast.dwell':'Activació: mantenint la mirada','toast.hover':'Activació: en passar-hi per sobre',
+  'toast.size':'Mida: ','toast.sizes':'grans|mitjans|petits','toast.dwell':'Activació: mantenint la mirada','toast.hover':'Activació: en passar-hi per sobre','toast.click':'Activació: fent clic',
   'toast.sndOn':'So activat','toast.sndOff':'So desactivat','toast.slow':'Càmera lenta','toast.normal':'Velocitat normal',
   'sc.granja':'La granja','sc.mar':'Fons marí','sc.espai':"L'espai",'sc.bombolles':'Bombolles màgiques','sc.xilofon':'El xilòfon','sc.bateria':'La bateria',
   'sc.focs':'Focs artificials','sc.pintar':'Pintem amb la mirada','sc.sinia':'La sínia','sc.anecs':"Pesca d'aneguets",'sc.futbol':'Futbol',
@@ -774,12 +774,12 @@ es:{
   'start.adult':'<b>Para el adulto:</b> haga clic en «Empezar» para activar el sonido. Las opciones se abren con la tecla <b>O</b> o desde el menú.',
   go:'Empezar ▶',fs:'Pantalla completa',lang:'Idioma','menu.title':'Elige un juego',opt:'⚙ Opciones',fsBtn:'⛶ Pantalla completa',soon:'En preparación',
   prev:'Escenario anterior',home:'Menú',next:'Escenario siguiente',
-  'opts.h':'Opciones (para el adulto)',size:'Tamaño de los objetos',big:'Grandes',med:'Medianos',small:'Pequeños',act:'Activación',hover:'Al pasar por encima',dwell:'Manteniendo la mirada',
+  'opts.h':'Opciones (para el adulto)',size:'Tamaño de los objetos',big:'Grandes',med:'Medianos',small:'Pequeños',act:'Activación',hover:'Al pasar por encima',dwell:'Manteniendo la mirada',click:'Haciendo clic',
   dwellTime:'Tiempo de permanencia:',speed:'Velocidad del movimiento ambiental:',cursor:'Cursor',ring:'Anillo',system:'Del sistema',none:'Ninguno',music:'Música de fondo',musicVol:'Volumen de la música',credits:'Sonidos: Freesound/ESC-50 (CC0), Berklee/OLPC (CC BY 3.0), Pearl Master Studio de enoe (CC BY 3.0), FluidR3 GM (Frank Wen, MIT). Música original.',credBtn:'Créditos','cred.h':'Créditos','cred.body':'<p>Esta actividad ha sido creada por la <b>UTAC</b> (<a href=\'https://www.utac.cat\' target=\'_blank\' rel=\'noopener\'>www.utac.cat</a>) utilizando inteligencia artificial, en concreto <b>Claude Opus 5.5</b> (Anthropic). Con la IA se han generado el programa, los dibujos, las animaciones, los efectos sintetizados y la música original.</p><h3>Sonidos grabados e instrumentos</h3><ul class="cl"><li><b>Freesound.org</b> – sonidos de animales de granja: ESC-50 (K. J. Piczak, 2015), CC0.</li><li><b>“Duck Quack”</b> – qubodup, Freesound.org (freesound.org/s/442820).</li><li><b>“Horse Neighing #3”</b> – BigSoundBank.com (Joseph Sardin).</li><li><b>Berklee College of Music / OLPC Sound Library</b> – efectos de sonido, CC BY 3.0.</li><li><b>“Pearl Master Studio Pack 1”</b> – enoe, Freesound.org, CC BY 3.0 (batería).</li><li><b>FluidR3 GM</b> – Frank Wen, instrumentos muestreados (midi-js-soundfonts, B. Gleitzman, MIT).</li><li><b>Nunito</b> – tipografía de The Nunito Project Authors, SIL Open Font License 1.1.</li></ul><p class=\'thx\'>Gracias a todos los autores que comparten sus sonidos con licencias libres.</p>',sound:'Sonido',vol:'Volumen',
   trail:'Estela de chispas detrás del cursor',simple:'Fondo simplificado (negro, alto contraste)',navGaze:'Botones de navegación activables con la mirada',
   fast:'Modo rápido (para ordenadores lentos; se activa solo si hace falta)',stats:'Activaciones en esta sesión:',close:'Cerrar',stopped:'parados',
   keys:'<kbd>←</kbd> <kbd>→</kbd> cambiar de escenario · <kbd>Esc</kbd>/<kbd>M</kbd> menú · <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> tamaño · <kbd>D</kbd> tipo de activación · <kbd>S</kbd> sonido · <kbd>F</kbd> pantalla completa · <kbd>L</kbd> cámara lenta · <kbd>O</kbd> opciones',
-  'toast.size':'Tamaño: ','toast.sizes':'grandes|medianos|pequeños','toast.dwell':'Activación: manteniendo la mirada','toast.hover':'Activación: al pasar por encima',
+  'toast.size':'Tamaño: ','toast.sizes':'grandes|medianos|pequeños','toast.dwell':'Activación: manteniendo la mirada','toast.hover':'Activación: al pasar por encima','toast.click':'Activación: haciendo clic',
   'toast.sndOn':'Sonido activado','toast.sndOff':'Sonido desactivado','toast.slow':'Cámara lenta','toast.normal':'Velocidad normal',
   'sc.granja':'La granja','sc.mar':'El fondo marino','sc.espai':'El espacio','sc.bombolles':'Burbujas mágicas','sc.xilofon':'El xilófono','sc.bateria':'La batería',
   'sc.focs':'Fuegos artificiales','sc.pintar':'Pintamos con la mirada','sc.sinia':'La noria','sc.anecs':'Pesca de patitos','sc.futbol':'Fútbol',
@@ -793,12 +793,12 @@ eu:{
   'start.adult':'<b>Helduarentzat:</b> egin klik «Hasi» botoian soinua aktibatzeko. Aukerak <b>O</b> teklarekin edo menutik irekitzen dira.',
   go:'Hasi ▶',fs:'Pantaila osoa',lang:'Hizkuntza','menu.title':'Aukeratu joko bat',opt:'⚙ Aukerak',fsBtn:'⛶ Pantaila osoa',soon:'Prestatzen',
   prev:'Aurreko eszenatokia',home:'Menua',next:'Hurrengo eszenatokia',
-  'opts.h':'Aukerak (helduarentzat)',size:'Objektuen tamaina',big:'Handiak',med:'Ertainak',small:'Txikiak',act:'Aktibazioa',hover:'Gainetik pasatzean',dwell:'Begirada mantenduz',
+  'opts.h':'Aukerak (helduarentzat)',size:'Objektuen tamaina',big:'Handiak',med:'Ertainak',small:'Txikiak',act:'Aktibazioa',hover:'Gainetik pasatzean',dwell:'Begirada mantenduz',click:'Klik eginez',
   dwellTime:'Begiratze-denbora:',speed:'Giroko mugimenduaren abiadura:',cursor:'Kurtsorea',ring:'Eraztuna',system:'Sistemarena',none:'Bat ere ez',music:'Atzeko musika',musicVol:'Musikaren bolumena',credits:'Soinuak: Freesound/ESC-50 (CC0), Berklee/OLPC (CC BY 3.0), enoe-ren Pearl Master Studio (CC BY 3.0), FluidR3 GM (Frank Wen, MIT). Jatorrizko musika.',credBtn:'Kredituak','cred.h':'Kredituak','cred.body':'<p>Jarduera hau <b>UTAC</b>-ek sortu du (<a href=\'https://www.utac.cat\' target=\'_blank\' rel=\'noopener\'>www.utac.cat</a>) adimen artifiziala erabiliz, zehazki <b>Claude Opus 5.5</b> (Anthropic). AAren bidez sortu dira programa, marrazkiak, animazioak, efektu sintetizatuak eta jatorrizko musika.</p><h3>Grabatutako soinuak eta instrumentuak</h3><ul class="cl"><li><b>Freesound.org</b> – baserriko animalien soinuak: ESC-50 (K. J. Piczak, 2015), CC0.</li><li><b>“Duck Quack”</b> – qubodup, Freesound.org (freesound.org/s/442820).</li><li><b>“Horse Neighing #3”</b> – BigSoundBank.com (Joseph Sardin).</li><li><b>Berklee College of Music / OLPC Sound Library</b> – soinu-efektuak, CC BY 3.0.</li><li><b>“Pearl Master Studio Pack 1”</b> – enoe, Freesound.org, CC BY 3.0 (bateria).</li><li><b>FluidR3 GM</b> – Frank Wen, lagindutako instrumentuak (midi-js-soundfonts, B. Gleitzman, MIT).</li><li><b>Nunito</b> – The Nunito Project Authors-en letra-tipoa, SIL Open Font License 1.1.</li></ul><p class=\'thx\'>Eskerrik asko beren soinuak lizentzia libreekin partekatzen dituzten egile guztiei.</p>',sound:'Soinua',vol:'Bolumena',
   trail:'Txinparta-arrastoa kurtsorearen atzean',simple:'Hondo sinplifikatua (beltza, kontraste handia)',navGaze:'Nabigazio-botoiak begiradarekin aktibatzeko aukera',
   fast:'Modu azkarra (ordenagailu motelentzat; behar denean berez aktibatzen da)',stats:'Saio honetako aktibazioak:',close:'Itxi',stopped:'geldirik',
   keys:'<kbd>←</kbd> <kbd>→</kbd> eszenatokiz aldatu · <kbd>Esc</kbd>/<kbd>M</kbd> menua · <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> tamaina · <kbd>D</kbd> aktibazio mota · <kbd>S</kbd> soinua · <kbd>F</kbd> pantaila osoa · <kbd>L</kbd> kamera geldoa · <kbd>O</kbd> aukerak',
-  'toast.size':'Tamaina: ','toast.sizes':'handiak|ertainak|txikiak','toast.dwell':'Aktibazioa: begirada mantenduz','toast.hover':'Aktibazioa: gainetik pasatzean',
+  'toast.size':'Tamaina: ','toast.sizes':'handiak|ertainak|txikiak','toast.dwell':'Aktibazioa: begirada mantenduz','toast.hover':'Aktibazioa: gainetik pasatzean','toast.click':'Aktibazioa: klik eginez',
   'toast.sndOn':'Soinua aktibatuta','toast.sndOff':'Soinua desaktibatuta','toast.slow':'Kamera geldoa','toast.normal':'Abiadura normala',
   'sc.granja':'Baserria','sc.mar':'Itsas hondoa','sc.espai':'Espazioa','sc.bombolles':'Burbuila magikoak','sc.xilofon':'Xilofonoa','sc.bateria':'Bateria',
   'sc.focs':'Su artifizialak','sc.pintar':'Begiradarekin margotzen','sc.sinia':'Noria','sc.anecs':'Ahatetxoak arrantzatzen','sc.futbol':'Futbola',
@@ -812,12 +812,12 @@ gl:{
   'start.adult':'<b>Para a persoa adulta:</b> prema en «Comezar» para activar o son. As opcións ábrense coa tecla <b>O</b> ou desde o menú.',
   go:'Comezar ▶',fs:'Pantalla completa',lang:'Idioma','menu.title':'Escolle un xogo',opt:'⚙ Opcións',fsBtn:'⛶ Pantalla completa',soon:'En preparación',
   prev:'Escenario anterior',home:'Menú',next:'Escenario seguinte',
-  'opts.h':'Opcións (para a persoa adulta)',size:'Tamaño dos obxectos',big:'Grandes',med:'Medianos',small:'Pequenos',act:'Activación',hover:'Ao pasar por riba',dwell:'Mantendo a mirada',
+  'opts.h':'Opcións (para a persoa adulta)',size:'Tamaño dos obxectos',big:'Grandes',med:'Medianos',small:'Pequenos',act:'Activación',hover:'Ao pasar por riba',dwell:'Mantendo a mirada',click:'Facendo clic',
   dwellTime:'Tempo de permanencia:',speed:'Velocidade do movemento ambiental:',cursor:'Cursor',ring:'Anel',system:'Do sistema',none:'Ningún',music:'Música de fondo',musicVol:'Volume da música',credits:'Sons: Freesound/ESC-50 (CC0), Berklee/OLPC (CC BY 3.0), Pearl Master Studio de enoe (CC BY 3.0), FluidR3 GM (Frank Wen, MIT). Música orixinal.',credBtn:'Créditos','cred.h':'Créditos','cred.body':'<p>Esta actividade foi creada pola <b>UTAC</b> (<a href=\'https://www.utac.cat\' target=\'_blank\' rel=\'noopener\'>www.utac.cat</a>) empregando intelixencia artificial, en concreto <b>Claude Opus 5.5</b> (Anthropic). Coa IA xeráronse o programa, os debuxos, as animacións, os efectos sintetizados e a música orixinal.</p><h3>Sons gravados e instrumentos</h3><ul class="cl"><li><b>Freesound.org</b> – sons de animais de granxa: ESC-50 (K. J. Piczak, 2015), CC0.</li><li><b>“Duck Quack”</b> – qubodup, Freesound.org (freesound.org/s/442820).</li><li><b>“Horse Neighing #3”</b> – BigSoundBank.com (Joseph Sardin).</li><li><b>Berklee College of Music / OLPC Sound Library</b> – efectos de son, CC BY 3.0.</li><li><b>“Pearl Master Studio Pack 1”</b> – enoe, Freesound.org, CC BY 3.0 (batería).</li><li><b>FluidR3 GM</b> – Frank Wen, instrumentos mostraxeados (midi-js-soundfonts, B. Gleitzman, MIT).</li><li><b>Nunito</b> – tipografía de The Nunito Project Authors, SIL Open Font License 1.1.</li></ul><p class=\'thx\'>Grazas a todos os autores que comparten os seus sons con licenzas libres.</p>',sound:'Son',vol:'Volume',
   trail:'Rastro de faíscas detrás do cursor',simple:'Fondo simplificado (negro, alto contraste)',navGaze:'Botóns de navegación activables coa mirada',
   fast:'Modo rápido (para ordenadores lentos; actívase só se cómpre)',stats:'Activacións nesta sesión:',close:'Pechar',stopped:'parados',
   keys:'<kbd>←</kbd> <kbd>→</kbd> cambiar de escenario · <kbd>Esc</kbd>/<kbd>M</kbd> menú · <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> tamaño · <kbd>D</kbd> tipo de activación · <kbd>S</kbd> son · <kbd>F</kbd> pantalla completa · <kbd>L</kbd> cámara lenta · <kbd>O</kbd> opcións',
-  'toast.size':'Tamaño: ','toast.sizes':'grandes|medianos|pequenos','toast.dwell':'Activación: mantendo a mirada','toast.hover':'Activación: ao pasar por riba',
+  'toast.size':'Tamaño: ','toast.sizes':'grandes|medianos|pequenos','toast.dwell':'Activación: mantendo a mirada','toast.hover':'Activación: ao pasar por riba','toast.click':'Activación: facendo clic',
   'toast.sndOn':'Son activado','toast.sndOff':'Son desactivado','toast.slow':'Cámara lenta','toast.normal':'Velocidade normal',
   'sc.granja':'A granxa','sc.mar':'O fondo mariño','sc.espai':'O espazo','sc.bombolles':'Burbullas máxicas','sc.xilofon':'O xilófono','sc.bateria':'A batería',
   'sc.focs':'Fogos artificiais','sc.pintar':'Pintamos coa mirada','sc.sinia':'A noria','sc.anecs':'Pesca de patiños','sc.futbol':'Fútbol',
@@ -831,12 +831,12 @@ en:{
   'start.adult':'<b>For the adult:</b> click “Start” to turn on the sound. The options open with the <b>O</b> key or from the menu.',
   go:'Start ▶',fs:'Full screen',lang:'Language','menu.title':'Choose a game',opt:'⚙ Options',fsBtn:'⛶ Full screen',soon:'Coming soon',
   prev:'Previous scene',home:'Menu',next:'Next scene',
-  'opts.h':'Options (for the adult)',size:'Object size',big:'Large',med:'Medium',small:'Small',act:'Activation',hover:'On hover',dwell:'Holding the gaze',
+  'opts.h':'Options (for the adult)',size:'Object size',big:'Large',med:'Medium',small:'Small',act:'Activation',hover:'On hover',dwell:'Holding the gaze',click:'By clicking',
   dwellTime:'Dwell time:',speed:'Background motion speed:',cursor:'Cursor',ring:'Ring',system:'System',none:'None',music:'Background music',musicVol:'Music volume',credits:'Sounds: Freesound/ESC-50 (CC0), Berklee/OLPC (CC BY 3.0), Pearl Master Studio by enoe (CC BY 3.0), FluidR3 GM (Frank Wen, MIT). Original music.',credBtn:'Credits','cred.h':'Credits','cred.body':'<p>This activity was created by <b>UTAC</b> (<a href=\'https://www.utac.cat\' target=\'_blank\' rel=\'noopener\'>www.utac.cat</a>) using artificial intelligence, specifically <b>Claude Opus 5.5</b> (Anthropic). The program, drawings, animations, synthesized effects and original music were generated with AI.</p><h3>Recorded sounds and instruments</h3><ul class="cl"><li><b>Freesound.org</b> – farm animal sounds: ESC-50 (K. J. Piczak, 2015), CC0.</li><li><b>“Duck Quack”</b> – qubodup, Freesound.org (freesound.org/s/442820).</li><li><b>“Horse Neighing #3”</b> – BigSoundBank.com (Joseph Sardin).</li><li><b>Berklee College of Music / OLPC Sound Library</b> – sound effects, CC BY 3.0.</li><li><b>“Pearl Master Studio Pack 1”</b> – enoe, Freesound.org, CC BY 3.0 (drum kit).</li><li><b>FluidR3 GM</b> – Frank Wen, sampled instruments (midi-js-soundfonts, B. Gleitzman, MIT).</li><li><b>Nunito</b> – typeface by The Nunito Project Authors, SIL Open Font License 1.1.</li></ul><p class=\'thx\'>Thanks to all the authors who share their sounds under free licences.</p>',sound:'Sound',vol:'Volume',
   trail:'Sparkle trail behind the cursor',simple:'Simplified background (black, high contrast)',navGaze:'Navigation buttons can be activated by gaze',
   fast:'Fast mode (for slow computers; turns on automatically if needed)',stats:'Activations this session:',close:'Close',stopped:'stopped',
   keys:'<kbd>←</kbd> <kbd>→</kbd> change scene · <kbd>Esc</kbd>/<kbd>M</kbd> menu · <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> size · <kbd>D</kbd> activation type · <kbd>S</kbd> sound · <kbd>F</kbd> full screen · <kbd>L</kbd> slow motion · <kbd>O</kbd> options',
-  'toast.size':'Size: ','toast.sizes':'large|medium|small','toast.dwell':'Activation: holding the gaze','toast.hover':'Activation: on hover',
+  'toast.size':'Size: ','toast.sizes':'large|medium|small','toast.dwell':'Activation: holding the gaze','toast.hover':'Activation: on hover','toast.click':'Activation: clicking',
   'toast.sndOn':'Sound on','toast.sndOff':'Sound off','toast.slow':'Slow motion','toast.normal':'Normal speed',
   'sc.granja':'The farm','sc.mar':'Under the sea','sc.espai':'Outer space','sc.bombolles':'Magic bubbles','sc.xilofon':'The xylophone','sc.bateria':'The drum kit',
   'sc.focs':'Fireworks','sc.pintar':'Painting with our eyes','sc.sinia':'The Ferris wheel','sc.anecs':'Hook-a-duck','sc.futbol':'Football',
@@ -850,12 +850,12 @@ fr:{
   'start.adult':"<b>Pour l'adulte :</b> cliquez sur « Commencer » pour activer le son. Les options s'ouvrent avec la touche <b>O</b> ou depuis le menu.",
   go:'Commencer ▶',fs:'Plein écran',lang:'Langue','menu.title':'Choisis un jeu',opt:'⚙ Options',fsBtn:'⛶ Plein écran',soon:'En préparation',
   prev:'Scène précédente',home:'Menu',next:'Scène suivante',
-  'opts.h':"Options (pour l'adulte)",size:'Taille des objets',big:'Grands',med:'Moyens',small:'Petits',act:'Activation',hover:'Au survol',dwell:'En maintenant le regard',
+  'opts.h':"Options (pour l'adulte)",size:'Taille des objets',big:'Grands',med:'Moyens',small:'Petits',act:'Activation',hover:'Au survol',dwell:'En maintenant le regard',click:'En cliquant',
   dwellTime:'Temps de fixation :',speed:"Vitesse du mouvement d'ambiance :",cursor:'Curseur',ring:'Anneau',system:'Du système',none:'Aucun',music:'Musique de fond',musicVol:'Volume de la musique',credits:"Sons : Freesound/ESC-50 (CC0), Berklee/OLPC (CC BY 3.0), Pearl Master Studio d'enoe (CC BY 3.0), FluidR3 GM (Frank Wen, MIT). Musique originale.",credBtn:'Crédits','cred.h':'Crédits','cred.body':'<p>Cette activité a été créée par l’<b>UTAC</b> (<a href=\'https://www.utac.cat\' target=\'_blank\' rel=\'noopener\'>www.utac.cat</a>) à l’aide de l’intelligence artificielle, plus précisément <b>Claude Opus 5.5</b> (Anthropic). Le programme, les dessins, les animations, les effets synthétisés et la musique originale ont été générés avec l’IA.</p><h3>Sons enregistrés et instruments</h3><ul class="cl"><li><b>Freesound.org</b> – sons d’animaux de la ferme: ESC-50 (K. J. Piczak, 2015), CC0.</li><li><b>“Duck Quack”</b> – qubodup, Freesound.org (freesound.org/s/442820).</li><li><b>“Horse Neighing #3”</b> – BigSoundBank.com (Joseph Sardin).</li><li><b>Berklee College of Music / OLPC Sound Library</b> – effets sonores, CC BY 3.0.</li><li><b>“Pearl Master Studio Pack 1”</b> – enoe, Freesound.org, CC BY 3.0 (batterie).</li><li><b>FluidR3 GM</b> – Frank Wen, instruments échantillonnés (midi-js-soundfonts, B. Gleitzman, MIT).</li><li><b>Nunito</b> – police de caractères de The Nunito Project Authors, SIL Open Font License 1.1.</li></ul><p class=\'thx\'>Merci à tous les auteurs qui partagent leurs sons sous licence libre.</p>',sound:'Son',vol:'Volume',
   trail:"Traînée d'étincelles derrière le curseur",simple:'Fond simplifié (noir, contraste élevé)',navGaze:'Boutons de navigation activables par le regard',
   fast:"Mode rapide (pour les ordinateurs lents ; s'active tout seul si nécessaire)",stats:'Activations pendant cette session :',close:'Fermer',stopped:'arrêtés',
   keys:"<kbd>←</kbd> <kbd>→</kbd> changer de scène · <kbd>Échap</kbd>/<kbd>M</kbd> menu · <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> taille · <kbd>D</kbd> type d'activation · <kbd>S</kbd> son · <kbd>F</kbd> plein écran · <kbd>L</kbd> ralenti · <kbd>O</kbd> options",
-  'toast.size':'Taille : ','toast.sizes':'grands|moyens|petits','toast.dwell':'Activation : en maintenant le regard','toast.hover':'Activation : au survol',
+  'toast.size':'Taille : ','toast.sizes':'grands|moyens|petits','toast.dwell':'Activation : en maintenant le regard','toast.hover':'Activation : au survol','toast.click':'Activation : en cliquant',
   'toast.sndOn':'Son activé','toast.sndOff':'Son désactivé','toast.slow':'Ralenti','toast.normal':'Vitesse normale',
   'sc.granja':'La ferme','sc.mar':'Le fond marin','sc.espai':"L'espace",'sc.bombolles':'Bulles magiques','sc.xilofon':'Le xylophone','sc.bateria':'La batterie',
   'sc.focs':"Feux d'artifice",'sc.pintar':'Peignons avec le regard','sc.sinia':'La grande roue','sc.anecs':'La pêche aux canards','sc.futbol':'Football',
@@ -3806,7 +3806,7 @@ function resize(){DPR=LOWQ?Math.min(1,window.devicePixelRatio||1)*.7:Math.min(2,
 if(CFG.lowq)LOWQ=true;addEventListener('resize',resize);resize();
 function toStage(e){cmx=e.clientX;cmy=e.clientY;mx=(e.clientX-OX)/S;my=(e.clientY-OY)/S;lastMove=performance.now()}
 addEventListener('pointermove',toStage,{passive:true});
-addEventListener('pointerdown',e=>{toStage(e);audioInit()},{passive:true});
+var CLK=false;addEventListener('pointerdown',e=>{toStage(e);audioInit();if(e.target===cv&&view==='scene'&&!optsOpen)CLK=true},{passive:true});
 document.documentElement.addEventListener('mouseleave',()=>{mx=my=cmx=cmy=-9999});
 const stage=c=>c.setTransform(DPR*S,0,0,DPR*S,OX*DPR,OY*DPR);
 
@@ -3842,9 +3842,10 @@ function stepScene0(dt){const sc=cur,d=sc.def,sp=dt*CFG.speed;sc.t+=dt;sc.grace-
   for(const t of sc.T){t.R=t.fr*U*SZ();if(t.upd)t.upd(t,sp,sc,dt);t.cd=Math.max(0,t.cd-dt);
     let ins=false;if(!t.off&&!t.hide&&!optsOpen&&sc.grace<=0&&mx>-999){if(t.box){const b=t.box(t);ins=Math.abs(mx-t.x)<b[0]/2&&Math.abs(my-t.y)<b[1]/2}else{const r=t.R*1.08+14;ins=(mx-t.x)**2+(my-t.y)**2<r*r}}
     if(CFG.mode===0){if(ins&&!t.hot&&t.cd<=0)fire(t,sc)}
+    else if(CFG.mode===2){if(ins&&CLK&&t.cd<=0)fire(t,sc);t.dw=0}
     else{if(ins&&t.cd<=0){t.dw+=dt;if(t.dw>=CFG.dwell){t.dw=0;fire(t,sc)}}else if(!ins)t.dw=Math.max(0,t.dw-dt*1.5)}
     t.hot=ins}
-  stepP(dt);stepObjs(dt)}
+  CLK=false;stepP(dt);stepObjs(dt)}
 function getBg(sc){if(BGC&&BGC.sc===sc&&BGC.simple===CFG.simple&&BGC.S===S)return BGC.cv;
   const b=document.createElement('canvas');b.width=Math.max(1,Math.round(VW*S*DPR));b.height=Math.max(1,Math.round(VH*S*DPR));const c=b.getContext('2d');c.setTransform(S*DPR,0,0,S*DPR,0,0);
   const g25=G25;G25=false;if(CFG.simple){c.fillStyle='#000';c.fillRect(0,0,VW,VH)}else{sc.def.paint(c,sc);if(sc.def.g25)bgSoften(c,b,G5O(sc.def).bg)}G25=g25;BGC={sc,cv:b,simple:CFG.simple,S};return b}
@@ -3876,7 +3877,7 @@ function drawOverlay(dt){oc.setTransform(1,0,0,1,0,0);oc.clearRect(0,0,ov.width,
   if(CFG.cursor===0&&vis){oc.beginPath();oc.arc(mx,my,24,0,TAU);oc.lineWidth=9;oc.strokeStyle='rgba(20,25,50,.55)';oc.stroke();oc.lineWidth=4.5;oc.strokeStyle='#fff';oc.stroke();oval(oc,mx,my,4,4,'#fff')}}
 
 function clearDw(){if(dwEl){dwEl.style.setProperty('--p',0);dwEl.classList.remove('hov')}dwEl=null;dwT=0}
-function domDwell(dt){if(optsOpen||view==='start'){clearDw();return}
+function domDwell(dt){if(optsOpen||view==='start'||CFG.mode===2){clearDw();return}
   let el=null;if(cmx>-999){const e=document.elementFromPoint(cmx,cmy);el=e&&e.closest?e.closest('.dwell'):null}
   if(el!==dwEl){clearDw();dwEl=el;if(el)el.classList.add('hov')}
   if(!el)return;dwT+=dt;const need=el.classList.contains('nb')?Math.max(CFG.dwell,1.2):Math.max(CFG.dwell,.8);
@@ -3934,7 +3935,7 @@ addEventListener('keydown',e=>{audioInit();const k=e.key.toLowerCase();
   else if(k==='arrowleft'){if(view==='scene')stepScn(-1);else openScene(AV[AV.length-1])}
   else if((k==='escape'||k==='m')&&view==='scene')goMenu();
   else if(k==='1'||k==='2'||k==='3'){CFG.size=+k-1;applyCfg();toast(T('toast.size')+TL('toast.sizes')[CFG.size])}
-  else if(k==='d'){CFG.mode=1-CFG.mode;applyCfg();toast(CFG.mode?T('toast.dwell'):T('toast.hover'))}
+  else if(k==='d'){CFG.mode=(CFG.mode+1)%3;applyCfg();toast(T(['toast.hover','toast.dwell','toast.click'][CFG.mode]))}
   else if(k==='s'){CFG.sound=!CFG.sound;applyCfg();toast(CFG.sound?T('toast.sndOn'):T('toast.sndOff'))}
   else if(k==='l'){TS=TS<1?1:.33;toast(TS<1?T('toast.slow'):T('toast.normal'))}
   else if(k==='f')fsToggle()});
